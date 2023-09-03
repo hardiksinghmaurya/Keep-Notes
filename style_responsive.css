@@ -1,0 +1,73 @@
+
+
+
+
+@media(width<1400px){
+html{
+    font-size: 60%;
+}
+}
+@media(width<1328px){
+html{
+    font-size: 57%;
+}
+}
+@media(width<1268px){
+html{
+    font-size: 54%;
+}
+}
+@media(width<1193px){
+html{
+    font-size: 52%;
+}
+}
+@media(width<1156px){
+html{
+    font-size: 50%;
+}
+}
+@media(width<1104px){
+html{
+    font-size: 48%;
+}
+}
+@media(width<710px){
+html{
+    font-size: 46%;
+}
+}
+@media(width<678px){
+html{
+    font-size: 40%;
+}
+}
+@media(width<500px){
+html{
+    font-size: 31%;
+}
+}
+@media(width<460px){
+html{
+    font-size: 28%;
+}
+}
+@media(width<410px){
+html{
+    font-size: 50%;
+}
+button{
+    top: 3.5rem;
+}
+
+#add-btn{
+    border: none;
+    height: 6rem;
+    width: 6rem;
+    border-radius: 50%;
+}
+
+}
+
+
+

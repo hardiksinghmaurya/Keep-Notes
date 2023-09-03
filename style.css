@@ -1,0 +1,103 @@
+html{
+    font-size: 62.5%;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    background-color: rgb(9, 77, 99);
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 40%;
+    gap: 2rem;
+    padding-bottom: 7rem;
+    /* margin-left: 2rem; */
+    width: 100%;
+}
+
+.content span{
+    display: block;
+}
+
+.content .text1{
+    font-size: 8rem;
+    position: relative;
+    animation: text 2s 1;
+    margin-bottom: 2rem;
+}
+
+.content .text2{
+    font-size: 2rem;
+    animation: text 1s 1;
+}
+
+
+
+@keyframes text{
+    0%{
+        color: rgb(9, 77, 99);
+        margin-bottom: -4rem;  
+    }
+}
+
+.photo{
+    position: relative;
+    animation: text 2s 1;
+}
+.photo img{ 
+    height: 15rem;
+    mix-blend-mode: darken;
+}
+
+a{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border-radius: 1rem;
+    padding: 1rem 4.2rem 1rem 3rem;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1.8rem;
+}
+
+a img{
+    height: 2rem;
+    position: absolute;
+}
+
+
+@media(width<800px){
+    html{
+        font-size: 50%;
+    }
+}
+@media(width<630px){
+    html{
+        font-size: 40%;
+    }
+}
+@media(width<500px){
+    html{
+        font-size: 35%;
+    }
+ .container a{
+    position: absolute;
+    bottom: 0;
+    left: 10%;
+ }
+}
+@media(width<330px){
+    html{
+        font-size: 30%;
+    }
+
+}
